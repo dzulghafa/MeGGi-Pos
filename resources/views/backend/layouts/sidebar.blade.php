@@ -19,9 +19,33 @@
       </a>
       <ul class="nav nav-treeview">
         <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-university nav-icon"></i>
-            <p>Base Data</p>
+          <a href="{{ route('backend.master-jenis') }}" class="nav-link">
+            <i class="fas fa-cog nav-icon"></i>
+            <p>Data Jenis</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ route('backend.master-satuan') }}" class="nav-link">
+            <i class="fas fa-cog nav-icon"></i>
+            <p>Data Satuan</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ route('backend.master-barang') }}" class="nav-link">
+            <i class="fas fa-cog nav-icon"></i>
+            <p>Data Barang</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ route('backend.master-suplier') }}" class="nav-link">
+            <i class="fas fa-cog nav-icon"></i>
+            <p>Data Suplier</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ route('backend.master-customer') }}" class="nav-link">
+            <i class="fas fa-cog nav-icon"></i>
+            <p>Data Customer</p>
           </a>
         </li>
       </ul>
