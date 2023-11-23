@@ -51,6 +51,13 @@
       </ul>
     </li>
 
+    <li class="nav-item">
+      <a href="{{ route('backend.relasi-barang-supplier') }}" class="nav-link">
+        <i class="fas fa-link nav-icon"></i>
+        <p>Relasi Barang Supplier</p>
+      </a>
+    </li>
+
     {{-- <li class="nav-item {{ (request()->is('akun*')) || (request()->is('roles*')) ? 'menu-open' : '' }}">
       <a href="#" class="nav-link {{ (request()->is('akun*')) || (request()->is('roles*')) ? 'active' : '' }}">
         <i class="nav-icon fas fa-users text-secondary"></i>
